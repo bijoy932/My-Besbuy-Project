@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="167.698" tests="8" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\paulb\workspace\BestbuyProject\target\test-classes;C:\Users\paulb\workspace\BestbuyProject\target\classes;C:\Users\paulb\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\paulb\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\paulb\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\paulb\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\paulb\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\paulb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\paulb\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\paulb\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\paulb\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-testng\1.2.4\cucumber-testng-1.2.4.jar;C:\Users\paulb\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\paulb\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\paulb\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\paulb\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\paulb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paulb\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\paulb\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\paulb\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\paulb\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\paulb\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\paulb\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\paulb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\paulb\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\paulb\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\paulb\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\paulb\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\paulb\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\paulb\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\paulb\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\paulb\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\paulb\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\paulb\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\paulb\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\paulb\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\paulb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\paulb\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.0\cucumber-extentsreport-3.1.0.jar;C:\Users\paulb\.m2\repository\org\apache\poi\poi-ooxml\3.8-beta4\poi-ooxml-3.8-beta4.jar;C:\Users\paulb\.m2\repository\org\apache\poi\poi\3.8-beta4\poi-3.8-beta4.jar;C:\Users\paulb\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8-beta4\poi-ooxml-schemas-3.8-beta4.jar;C:\Users\paulb\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\paulb\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\paulb\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\paulb\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\paulb\.m2\repository\io\rest-assured\rest-assured\3.0.2\rest-assured-3.0.2.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy\2.4.6\groovy-2.4.6.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\paulb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\paulb\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\paulb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paulb\.m2\repository\io\rest-assured\json-path\3.0.2\json-path-3.0.2.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy-json\2.4.6\groovy-json-2.4.6.jar;C:\Users\paulb\.m2\repository\io\rest-assured\rest-assured-common\3.0.2\rest-assured-common-3.0.2.jar;C:\Users\paulb\.m2\repository\io\rest-assured\xml-path\3.0.2\xml-path-3.0.2.jar;C:\Users\paulb\.m2\repository\io\rest-assured\json-schema-validator\3.0.0\json-schema-validator-3.0.0.jar;C:\Users\paulb\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\paulb\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\paulb\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\paulb\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\paulb\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\paulb\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\paulb\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\paulb\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\paulb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\paulb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\paulb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\paulb\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\paulb\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\paulb\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\paulb\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\paulb\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy-all\2.4.5\groovy-all-2.4.5.jar;C:\Users\paulb\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\paulb\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin"/>
+    <property name="sun.java.command" value="C:\Users\paulb\AppData\Local\Temp\surefire2164108865254416008\surefirebooter8243791008751956384.jar C:\Users\paulb\AppData\Local\Temp\surefire2164108865254416008 2023-03-21T20-31-39_135-jvmRun1 surefire4990225595208965598tmp surefire_07012498997529142007tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\paulb\workspace\BestbuyProject\target\test-classes;C:\Users\paulb\workspace\BestbuyProject\target\classes;C:\Users\paulb\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\paulb\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\paulb\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\paulb\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\paulb\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\paulb\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\paulb\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\paulb\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\paulb\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-core\1.2.4\cucumber-core-1.2.4.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-java\1.2.4\cucumber-java-1.2.4.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-testng\1.2.4\cucumber-testng-1.2.4.jar;C:\Users\paulb\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\paulb\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\paulb\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\paulb\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\paulb\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\paulb\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\paulb\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\paulb\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\paulb\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\paulb\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\paulb\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\paulb\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\paulb\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\paulb\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\paulb\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\paulb\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\paulb\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\paulb\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\paulb\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\paulb\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\paulb\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\paulb\.m2\repository\com\aventstack\extentreports\3.1.5\extentreports-3.1.5.jar;C:\Users\paulb\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\paulb\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\paulb\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\paulb\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\paulb\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\paulb\.m2\repository\com\vimalselvam\cucumber-extentsreport\3.1.0\cucumber-extentsreport-3.1.0.jar;C:\Users\paulb\.m2\repository\org\apache\poi\poi-ooxml\3.8-beta4\poi-ooxml-3.8-beta4.jar;C:\Users\paulb\.m2\repository\org\apache\poi\poi\3.8-beta4\poi-3.8-beta4.jar;C:\Users\paulb\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.8-beta4\poi-ooxml-schemas-3.8-beta4.jar;C:\Users\paulb\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\paulb\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\paulb\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\paulb\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\paulb\.m2\repository\io\rest-assured\rest-assured\3.0.2\rest-assured-3.0.2.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy\2.4.6\groovy-2.4.6.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.6\groovy-xml-2.4.6.jar;C:\Users\paulb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\paulb\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\paulb\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\paulb\.m2\repository\io\rest-assured\json-path\3.0.2\json-path-3.0.2.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy-json\2.4.6\groovy-json-2.4.6.jar;C:\Users\paulb\.m2\repository\io\rest-assured\rest-assured-common\3.0.2\rest-assured-common-3.0.2.jar;C:\Users\paulb\.m2\repository\io\rest-assured\xml-path\3.0.2\xml-path-3.0.2.jar;C:\Users\paulb\.m2\repository\io\rest-assured\json-schema-validator\3.0.0\json-schema-validator-3.0.0.jar;C:\Users\paulb\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar;C:\Users\paulb\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar;C:\Users\paulb\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar;C:\Users\paulb\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar;C:\Users\paulb\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar;C:\Users\paulb\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar;C:\Users\paulb\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar;C:\Users\paulb\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar;C:\Users\paulb\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar;C:\Users\paulb\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar;C:\Users\paulb\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar;C:\Users\paulb\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar;C:\Users\paulb\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar;C:\Users\paulb\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\paulb\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;C:\Users\paulb\.m2\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\Users\paulb\.m2\repository\org\codehaus\groovy\groovy-all\2.4.5\groovy-all-2.4.5.jar;C:\Users\paulb\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\paulb\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\paulb"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_202"/>
+    <property name="basedir" value="C:\Users\paulb\workspace\BestbuyProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\paulb\AppData\Local\Temp\surefire2164108865254416008\surefirebooter8243791008751956384.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_202\lib\resources.jar;C:\Program Files\Java\jre1.8.0_202\lib\rt.jar;C:\Program Files\Java\jre1.8.0_202\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_202\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_202\lib\jce.jar;C:\Program Files\Java\jre1.8.0_202\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_202\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_202\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="paulb"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\paulb\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\paulb\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\paulb\workspace\BestbuyProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\paulb\AppData\Local\Microsoft\WindowsApps;C:\upskill\maven\apache-maven-3.8.7\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jre1.8.0_202\bin;;C:\upskill\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_202\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="48.834"/>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="23.673"/>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="25.138"/>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="18.6">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;brand_facet-Samsung-1&apos;]&quot;}&#10;  (Session info: chrome=111.0.5563.65)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;PAUL-HP&apos;, ip: &apos;192.168.1.51&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4436dd42e499444ece6118e29cf12bc3&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;brand_facet-Samsung-1&apos;]}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='brand_facet-Samsung-1']"}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'PAUL-HP', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4436dd42e499444ece6118e29cf12bc3
+*** Element info: {Using=xpath, value=//input[@id='brand_facet-Samsung-1']}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='brand_facet-Samsung-1']"}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'PAUL-HP', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4436dd42e499444ece6118e29cf12bc3
+*** Element info: {Using=xpath, value=//input[@id='brand_facet-Samsung-1']}
+</failure>
+    <system-out><![CDATA[@regression @smoke @us-248
+Feature: Bestbuy Cart Functionality
+  
+  Description: User should able to add items in cart
+---->>>> Initializing Driver....
+TEst Scenario Name: Bestbuy cart functionality
+
+  Background:                   # BestbyCartDropDown.feature:6
+    Given Open Bestbuy Homepage # BestbuyHomepageSteps.open_Bestbuy_Homepage()
+>>>>>>>> Screenshot Taken >>>>>>>>
+ ------Test Complete, Browser Closed 
+
+  Scenario: Bestbuy cart functionality   # BestbyCartDropDown.feature:9
+    Given Search for Phones              # BestbuyHomepageSteps.search_for_Phones()
+    When Select the category             # BestbuySearchingSteps.select_the_category()
+    And Select brand                     # BestbuySearchingSteps.select_brand()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='brand_facet-Samsung-1']"}
+        (Session info: chrome=111.0.5563.65)
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+      System info: host: 'PAUL-HP', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62221}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: 4436dd42e499444ece6118e29cf12bc3
+      *** Element info: {Using=xpath, value=//input[@id='brand_facet-Samsung-1']}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy19.click(Unknown Source)
+      	at com.ebay.pageAction.BestbuySearchingActions.SelectBrand(BestbuySearchingActions.java:48)
+      	at com.ebay.stepDef.BestbuySearchingSteps.select_brand(BestbuySearchingSteps.java:33)
+      	at ?.And Select brand(BestbyCartDropDown.feature:12)
+
+    And Select Carrier Compatibility     # BestbuySearchingSteps.select_Carrier_Compatibility()
+    And Select Condition                 # BestbuySearchingSteps.select_Condition()
+    And Select Model Family              # BestbuySearchingSteps.select_Model_Family()
+    And Select Internal Storage Capacity # BestbuySearchingSteps.select_Internal_Storage_Capacity()
+    And Select Features                  # BestbuySearchingSteps.select_Features()
+    And Select Color                     # BestbuySearchingSteps.select_Color()
+    And Select Operating System          # BestbuySearchingSteps.select_Operating_System()
+    Then See details                     # BestbuySearchingSteps.see_details()
+    And Add to cart                      # BestbuySearchingSteps.add_to_cart()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 7789
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 21, 2023 8:33:19 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="15.271">
+    <failure message="java.lang.NullPointerException" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[@regression @smoke @us-248
+Feature: Ebay laptop Cart Functionality
+  
+  Description: User should able to cart laptop
+---->>>> Initializing Driver....
+TEst Scenario Name: Ebay cart functionality
+>>>>>>>> Screenshot Taken >>>>>>>>
+ ------Test Complete, Browser Closed 
+
+  Scenario: Ebay cart functionality     # EbayCart.feature:6
+    Given Open Ebay Homepage            # EbayHomepageSteps.open_Ebay_Homepage()
+    And Search for a laptop             # EbayHomepageSteps.search_for_a_laptop()
+    When Select first laptop            # EbaySearchResultSteps.select_first_laptop()
+    And Select Quantity                 # EbayCartSteps.select_Quantity()
+      java.lang.NullPointerException
+      	at com.ebay.stepDef.EbayCartSteps.select_Quantity(EbayCartSteps.java:14)
+      	at ?.And Select Quantity(EbayCart.feature:10)
+
+    Then Should able to cart the laptop # EbayCartSteps.should_able_to_cart_the_laptop()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 22849
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 21, 2023 8:33:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="17.236">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;s0-27_1-9-0-1[3]-0-0&quot;]/ul/li[9]/div[1]/div[2]/a/h3&quot;}&#10;  (Session info: chrome=111.0.5563.65)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.12.0&apos;, revision: &apos;7c6e0b3&apos;, time: &apos;2018-05-08T14:04:26.12Z&apos;&#10;System info: host: &apos;PAUL-HP&apos;, ip: &apos;192.168.1.51&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: de59c73bd1f4c29cb8b283fb4b8681c0&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;s0-27_1-9-0-1[3]-0-0&quot;]/ul/li[9]/div[1]/div[2]/a/h3}" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: 
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="s0-27_1-9-0-1[3]-0-0"]/ul/li[9]/div[1]/div[2]/a/h3"}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'PAUL-HP', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de59c73bd1f4c29cb8b283fb4b8681c0
+*** Element info: {Using=xpath, value=//*[@id="s0-27_1-9-0-1[3]-0-0"]/ul/li[9]/div[1]/div[2]/a/h3}
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="s0-27_1-9-0-1[3]-0-0"]/ul/li[9]/div[1]/div[2]/a/h3"}
+  (Session info: chrome=111.0.5563.65)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'PAUL-HP', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: de59c73bd1f4c29cb8b283fb4b8681c0
+*** Element info: {Using=xpath, value=//*[@id="s0-27_1-9-0-1[3]-0-0"]/ul/li[9]/div[1]/div[2]/a/h3}
+</failure>
+    <system-out><![CDATA[@regression @smoke @us-248
+Feature: Ebay Cart Functionality
+  
+  Description: User should able to cart product by category
+---->>>> Initializing Driver....
+TEst Scenario Name: Ebay cart functionality
+>>>>>>>> Screenshot Taken >>>>>>>>
+ ------Test Complete, Browser Closed 
+
+  Scenario: Ebay cart functionality                                           # EbaySearch.feature:6
+    Given Open Ebay Homepage                                                  # EbayHomepageSteps.open_Ebay_Homepage()
+    And Select Shop by category and user should be category page              # EbayHomepageSteps.select_Shop_by_category_and_user_should_be_category_page()
+    And Select the category for products user should see product related page # EbayHomepageSteps.select_the_category_for_products_user_should_see_product_related_page()
+    When Select brand from product brand user see product related brand       # EbaySearchResultSteps.select_product_from_product_brand_user_see_brand_related_product()
+    And Select the product                                                    # EbaySearchResultSteps.select_the_product()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="s0-27_1-9-0-1[3]-0-0"]/ul/li[9]/div[1]/div[2]/a/h3"}
+        (Session info: chrome=111.0.5563.65)
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+      System info: host: 'PAUL-HP', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\paulb\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62577}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+      Session ID: de59c73bd1f4c29cb8b283fb4b8681c0
+      *** Element info: {Using=xpath, value=//*[@id="s0-27_1-9-0-1[3]-0-0"]/ul/li[9]/div[1]/div[2]/a/h3}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+      	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+      	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+      	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+      	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
+      	at com.ebay.pageAction.EbaySearchResultActions.SelectProduct(EbaySearchResultActions.java:30)
+      	at com.ebay.stepDef.EbaySearchResultSteps.select_the_product(EbaySearchResultSteps.java:20)
+      	at ?.And Select the product(EbaySearch.feature:11)
+
+    And Select quantity                                                       # EbaySearchResultSteps.select_quantity()
+    Then user should able to cart the product                                 # EbaySearchResultSteps.user_should_able_to_cart_the_product()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 47821
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 21, 2023 8:33:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="9.782"/>
+  <testcase name="feature" classname="com.runners.RunnerClass" time="8.26"/>
+</testsuite>

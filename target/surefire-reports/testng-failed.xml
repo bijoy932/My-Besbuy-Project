@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Regression]">
+  <test name="Bestbuy(failed)">
+    <classes>
+      <class name="com.runners.RunnerClass">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="3 4 5"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- com.runners.RunnerClass -->
+    </classes>
+  </test> <!-- Bestbuy(failed) -->
+</suite> <!-- Failed suite [Regression] -->
